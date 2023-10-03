@@ -5,22 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MovieFreak</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
   <div class="main-wrapper">
     <h1>Movie Freak</h1>
-
     <div class="input-wrapper">
       <p>Movie 1</p>
-      <input id="movieOne" type="text">
+      <div class="movieOne-Wrapper">
+        <input id="movieOne" type="text">
+        <ul id="movieAutocomplete">
+        </ul>
+      </div>
       <p>Movie 2</p>
-      <input id="movieTwo" type="text">
-      <p id="dump">dump here</p>
+      <div class="movieTwo-Wrapper">
+        <input id="movieTwo" type="text">
+        <ul>
+        </ul>
+      </div>
     </div>
   </div>
 
   <script src="/main.js">
   </script>
 </body>
+
 </html>

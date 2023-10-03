@@ -1,13 +1,13 @@
 // function to render a the data to the p
 function renderData(data) {
   data.forEach(el => {
-    let p = document.createElement('p')
-    p.innerHTML = el.Title + '(' + el.Year + ')'
+    let li = document.createElement('li')
+    li.innerHTML = el.Title + '(' + el.Year + ')'
     let image = document.createElement('img')
     image.src = el.Poster
-    console.log(el)
-    document.getElementById('dump').append(p)
-    document.getElementById('dump').append(image)
+    // console.log(el)
+    document.getElementById('movieAutocomplete').append(li)
+    // document.getElementById('dump').append(image)
   });
 }
 

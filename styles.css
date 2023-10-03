@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.main-wrapper {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+.input-wrapper {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.input-wrapper > p {
+    margin: 0 ;
+}
+.movieOne-Wrapper > #movieAutocomplete {
+    position: relative;
+    background-color: blueviolet;
+
+}
+.MovieAutocomplete {
+
+}
