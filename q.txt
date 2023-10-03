@@ -1,1 +1,4 @@
+This is a sort of Readme file where I put random things to do or stack overflow question / front-end design ideas
 https://stackoverflow.com/questions/57362011/is-there-way-that-i-can-get-movie-title-names-having-a-word-in-omdb-api
+
+idk what I want to do with the styling
