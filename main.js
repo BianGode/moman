@@ -7,7 +7,6 @@ function renderData(data) {
     image.src = el.Poster
     // console.log(el)
     document.getElementById('movieAutocomplete').append(li)
-    // document.getElementById('dump').append(image)
   });
 }
 
